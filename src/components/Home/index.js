@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import LogoTitle from '../../assets/images/logo-s.png'
 import AnimatedLetters from '../AnimatedLetters'
@@ -7,7 +7,7 @@ import './index.scss'
 import Loader from 'react-loaders'
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass] = useState('text-animate')
   const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
   const jobArray = [
     'w',
