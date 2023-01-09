@@ -1,12 +1,12 @@
 import emailjs from '@emailjs/browser'
-import { useEffect, useRef, useState } from 'react'
+import { useRef } from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  // const [letterClass, setLetterClass] = useState('text-animate')
   const refForm = useRef()
   // useEffect(() => {
   //   return setTimeout(() => {
